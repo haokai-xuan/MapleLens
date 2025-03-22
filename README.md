@@ -11,6 +11,4 @@
 
 ## Technologies
 
-- **Flutter:** A cross-platform framework for building the mobile app.
 - **Google Vision API:** For image recognition and identifying products.
-- **Firebase (Optional):** Can be used for backend services, such as user authentication and storing product data.
