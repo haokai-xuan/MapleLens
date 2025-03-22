@@ -1,0 +1,418 @@
+{
+  "Chips": [
+    {
+      "brand": "Miss Vickie's Canada",
+      "image_path": "chips/Miss_Vickie's_Canada.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Humpty Dumpty",
+      "image_path": "chips/Humpty_Dumpty.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "President's Choice",
+      "image_path": "chips/President's_Choice.jpg",
+      "category": "Chips"
+    }
+  ],
+  "Crackers": [
+    {
+      "brand": "Christie",
+      "image_path": "crackers/Christie.jpg",
+      "category": "Crackers"
+    },
+    {
+      "brand": "President's Choice",
+      "image_path": "crackers/President's_Choice.jpg",
+      "category": "Crackers"
+    },
+    {
+      "brand": "Neal Brothers",
+      "image_path": "crackers/Neal_Brothers.jpg",
+      "category": "Crackers"
+    }
+  ],
+  "Soft Drinks": [
+    {
+      "brand": "Canada Dry",
+      "image_path": "soft_drinks/Canada_Dry.jpg",
+      "category": "Soft Drinks"
+    },
+    {
+      "brand": "Crush Canada",
+      "image_path": "soft_drinks/Crush_Canada.jpg",
+      "category": "Soft Drinks"
+    },
+    {
+      "brand": "President's Choice",
+      "image_path": "soft_drinks/President's_Choice.jpg",
+      "category": "Soft Drinks"
+    }
+  ],
+  "Sports Drinks": [
+    {
+      "brand": "BioSteel",
+      "image_path": "sports_drinks/BioSteel.jpg",
+      "category": "Sports Drinks"
+    },
+    {
+      "brand": "Guru",
+      "image_path": "sports_drinks/Guru.jpg",
+      "category": "Sports Drinks"
+    },
+    {
+      "brand": "FLOW Hydration",
+      "image_path": "sports_drinks/FLOW_Hydration.jpg",
+      "category": "Sports Drinks"
+    }
+  ],
+  "Energy Drinks": [
+    {
+      "brand": "Guru",
+      "image_path": "energy_drinks/Guru.jpg",
+      "category": "Energy Drinks"
+    },
+    {
+      "brand": "Rockstar Canada",
+      "image_path": "energy_drinks/Rockstar_Canada.jpg",
+      "category": "Energy Drinks"
+    },
+    {
+      "brand": "Red Bull Canada",
+      "image_path": "energy_drinks/Red_Bull_Canada.jpg",
+      "category": "Energy Drinks"
+    }
+  ],
+  "Juices": [
+    {
+      "brand": "Sun-Rype",
+      "image_path": "juices/Sun-Rype.jpg",
+      "category": "Juices"
+    },
+    {
+      "brand": "Oasis",
+      "image_path": "juices/Oasis.jpg",
+      "category": "Juices"
+    },
+    {
+      "brand": "President's Choice",
+      "image_path": "juices/President's_Choice.jpg",
+      "category": "Juices"
+    }
+  ],
+  "Breakfast Cereal": [
+    {
+      "brand": "Nature's Path",
+      "image_path": "breakfast_cereal/Nature's_Path.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "President's Choice",
+      "image_path": "breakfast_cereal/President's_Choice.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "Holy Crap Cereals",
+      "image_path": "breakfast_cereal/Holy_Crap_Cereals.jpg",
+      "category": "Breakfast Cereal"
+    }
+  ],
+  "Shampoo": [
+    {
+      "brand": "Live Clean",
+      "image_path": "shampoo/Live_Clean.jpg",
+      "category": "Shampoo"
+    },
+    {
+      "brand": "The Green Beaver Company",
+      "image_path": "shampoo/The_Green_Beaver_Company.jpg",
+      "category": "Shampoo"
+    },
+    {
+      "brand": "Cake Beauty",
+      "image_path": "shampoo/Cake_Beauty.jpg",
+      "category": "Shampoo"
+    }
+  ],
+  "Toothpaste": [
+    {
+      "brand": "Green Beaver",
+      "image_path": "toothpaste/Green_Beaver.jpg",
+      "category": "Toothpaste"
+    },
+    {
+      "brand": "Nelson Naturals",
+      "image_path": "toothpaste/Nelson_Naturals.jpg",
+      "category": "Toothpaste"
+    },
+    {
+      "brand": "Attitude",
+      "image_path": "toothpaste/Attitude.jpg",
+      "category": "Toothpaste"
+    }
+  ],
+  "Laundry Detergent": [
+    {
+      "brand": "Nature Clean",
+      "image_path": "laundry_detergent/Nature_Clean.jpg",
+      "category": "Laundry Detergent"
+    },
+    {
+      "brand": "Bio-Vert",
+      "image_path": "laundry_detergent/Bio-Vert.jpg",
+      "category": "Laundry Detergent"
+    },
+    {
+      "brand": "Attitude",
+      "image_path": "laundry_detergent/Attitude.jpg",
+      "category": "Laundry Detergent"
+    }
+  ],
+  "All-Purpose Cleaners": [
+    {
+      "brand": "Nature Clean",
+      "image_path": "all-purpose_cleaners/Nature_Clean.jpg",
+      "category": "All-Purpose Cleaners"
+    },
+    {
+      "brand": "Bio-Vert",
+      "image_path": "all-purpose_cleaners/Bio-Vert.jpg",
+      "category": "All-Purpose Cleaners"
+    },
+    {
+      "brand": "Sapadilla",
+      "image_path": "all-purpose_cleaners/Sapadilla.jpg",
+      "category": "All-Purpose Cleaners"
+    }
+  ],
+  "Paper Towels": [
+    {
+      "brand": "Cascades",
+      "image_path": "paper_towels/Cascades.jpg",
+      "category": "Paper Towels"
+    },
+    {
+      "brand": "Irving",
+      "image_path": "paper_towels/Irving.jpg",
+      "category": "Paper Towels"
+    },
+    {
+      "brand": "Kruger Products",
+      "image_path": "paper_towels/Kruger_Products.jpg",
+      "category": "Paper Towels"
+    }
+  ],
+  "Toilet Paper": [
+    {
+      "brand": "Cascades",
+      "image_path": "toilet_paper/Cascades.jpg",
+      "category": "Toilet Paper"
+    },
+    {
+      "brand": "Irving",
+      "image_path": "toilet_paper/Irving.jpg",
+      "category": "Toilet Paper"
+    },
+    {
+      "brand": "Kruger Products",
+      "image_path": "toilet_paper/Kruger_Products.jpg",
+      "category": "Toilet Paper"
+    }
+  ],
+  "Dog Food": [
+    {
+      "brand": "Open Farm",
+      "image_path": "dog_food/Open_Farm.jpg",
+      "category": "Dog Food"
+    },
+    {
+      "brand": "Canadian Naturals",
+      "image_path": "dog_food/Canadian_Naturals.jpg",
+      "category": "Dog Food"
+    },
+    {
+      "brand": "Orijen",
+      "image_path": "dog_food/Orijen.jpg",
+      "category": "Dog Food"
+    }
+  ],
+  "Cat Food": [
+    {
+      "brand": "Open Farm",
+      "image_path": "cat_food/Open_Farm.jpg",
+      "category": "Cat Food"
+    },
+    {
+      "brand": "Canadian Naturals",
+      "image_path": "cat_food/Canadian_Naturals.jpg",
+      "category": "Cat Food"
+    },
+    {
+      "brand": "Orijen",
+      "image_path": "cat_food/Orijen.jpg",
+      "category": "Cat Food"
+    }
+  ],
+  "Frozen Food": [
+    {
+      "brand": "President's Choice",
+      "image_path": "frozen_food/President's_Choice.jpg",
+      "category": "Frozen Food"
+    },
+    {
+      "brand": "McCain Foods",
+      "image_path": "frozen_food/McCain_Foods.jpg",
+      "category": "Frozen Food"
+    },
+    {
+      "brand": "Arctic Gardens",
+      "image_path": "frozen_food/Arctic_Gardens.jpg",
+      "category": "Frozen Food"
+    }
+  ],
+  "Canned Vegetables": [
+    {
+      "brand": "President's Choice",
+      "image_path": "canned_vegetables/President's_Choice.jpg",
+      "category": "Canned Vegetables"
+    },
+    {
+      "brand": "Green Giant Canada",
+      "image_path": "canned_vegetables/Green_Giant_Canada.jpg",
+      "category": "Canned Vegetables"
+    }
+  ],
+  "Canned Fruits": [
+    {
+      "brand": "Del Monte Canada",
+      "image_path": "canned_fruits/Del_Monte_Canada.jpg",
+      "category": "Canned Fruits"
+    }
+  ],
+  "Canned Soups": [
+    {
+      "brand": "Habitant",
+      "image_path": "canned_soups/Habitant.jpg",
+      "category": "Canned Soups"
+    },
+    {
+      "brand": "Campbell's Canada",
+      "image_path": "canned_soups/Campbell's_Canada.jpg",
+      "category": "Canned Soups"
+    }
+  ],
+  "Candy": [
+    {
+      "brand": "PUR Gum",
+      "image_path": "candy/PUR_Gum.jpg",
+      "category": "Candy"
+    }
+  ],
+  "Chocolate": [
+    {
+      "brand": "Laura Secord",
+      "image_path": "chocolate/Laura_Secord.jpg",
+      "category": "Chocolate"
+    },
+    {
+      "brand": "Purdy's",
+      "image_path": "chocolate/Purdy's.jpg",
+      "category": "Chocolate"
+    },
+    {
+      "brand": "Rogers' Chocolates",
+      "image_path": "chocolate/Rogers'_Chocolates.jpg",
+      "category": "Chocolate"
+    }
+  ],
+  "Popcorn": [
+    {
+      "brand": "Kernels Popcorn",
+      "image_path": "popcorn/Kernels_Popcorn.jpg",
+      "category": "Popcorn"
+    },
+    {
+      "brand": "Orville Redenbacher Canada",
+      "image_path": "popcorn/Orville_Redenbacher_Canada.jpg",
+      "category": "Popcorn"
+    }
+  ],
+  "Trail Mix": [
+    {
+      "brand": "Prana",
+      "image_path": "trail_mix/Prana.jpg",
+      "category": "Trail Mix"
+    },
+    {
+      "brand": "Made Good",
+      "image_path": "trail_mix/Made_Good.jpg",
+      "category": "Trail Mix"
+    }
+  ],
+  "Granola Bars": [
+    {
+      "brand": "Made Good",
+      "image_path": "granola_bars/Made_Good.jpg",
+      "category": "Granola Bars"
+    },
+    {
+      "brand": "Nature Valley Canada",
+      "image_path": "granola_bars/Nature_Valley_Canada.jpg",
+      "category": "Granola Bars"
+    },
+    {
+      "brand": "Quaker Canada",
+      "image_path": "granola_bars/Quaker_Canada.jpg",
+      "category": "Granola Bars"
+    }
+  ],
+  "Dried Fruits": [
+    {
+      "brand": "Patience Fruit & Co",
+      "image_path": "dried_fruits/Patience_Fruit_&_Co.jpg",
+      "category": "Dried Fruits"
+    },
+    {
+      "brand": "Fruit d'Or",
+      "image_path": "dried_fruits/Fruit_d'Or.jpg",
+      "category": "Dried Fruits"
+    }
+  ],
+  "Cheese Snacks": [
+    {
+      "brand": "Hawkins Cheezies",
+      "image_path": "cheese_snacks/Hawkins_Cheezies.jpg",
+      "category": "Cheese Snacks"
+    },
+    {
+      "brand": "Great Value Canada",
+      "image_path": "cheese_snacks/Great_Value_Canada.jpg",
+      "category": "Cheese Snacks"
+    }
+  ],
+  "Rice Snacks": [
+    {
+      "brand": "Made Good",
+      "image_path": "rice_snacks/Made_Good.jpg",
+      "category": "Rice Snacks"
+    },
+    {
+      "brand": "Nature's Path Canada",
+      "image_path": "rice_snacks/Nature's_Path_Canada.jpg",
+      "category": "Rice Snacks"
+    }
+  ],
+  "Fruit Snacks": [
+    {
+      "brand": "Made Good",
+      "image_path": "fruit_snacks/Made_Good.jpg",
+      "category": "Fruit Snacks"
+    },
+    {
+      "brand": "Bear Paws",
+      "image_path": "fruit_snacks/Bear_Paws.jpg",
+      "category": "Fruit Snacks"
+    }
+  ]
+}

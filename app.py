@@ -2,12 +2,13 @@ import os
 import io
 import base64
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
 from google.cloud import vision
 from PIL import Image
 from dotenv import load_dotenv
 from rapidfuzz import process
-from flask_cors import CORS  # Add this import
+import json
 
 # Load API key from .env file
 load_dotenv("config.env")
@@ -53,7 +54,11 @@ def home():
 def analyze_image():
     # Handle preflight request
     if request.method == "OPTIONS":
-        return {"message": "preflight"}, 200
+        response = jsonify({"message": "preflight"})
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+        response.headers.add('Access-Control-Allow-Methods', 'POST')
+        return response, 200
 
     if "image" not in request.files:
         return jsonify({"error": "No image uploaded"}), 400
@@ -118,25 +123,53 @@ def analyze_image():
         # Find best matching category
         if category_scores:
             matched_category = max(category_scores.items(), key=lambda x: x[1])
-            alternatives = CATEGORY_ALTERNATIVES.get(matched_category[0], ["No alternatives found"])
+            category_name = matched_category[0]
+            alternatives = CATEGORY_ALTERNATIVES.get(category_name, ["No alternatives found"])
+            
+            # Get image paths for alternatives
+            alternative_images = []
+            for alt in alternatives:
+                # Look up the image path from product_images.json
+                try:
+                    with open('product_images.json', 'r') as f:
+                        image_data = json.load(f)
+                        # Find the matching product in the category
+                        for product in image_data.get(category_name, []):
+                            if product['brand'] == alt:
+                                # Create full URL for the image
+                                image_url = f"/product_images/{product['image_path']}"
+                                alternative_images.append({
+                                    "brand": alt,
+                                    "image_url": image_url
+                                })
+                                break
+                except Exception as e:
+                    print(f"Error loading image data: {e}")
+                    alternative_images.append({
+                        "brand": alt,
+                        "image_url": None
+                    })
             
             return jsonify({
                 "detected_elements": detected_elements,
-                "matched_category": matched_category[0],
+                "matched_category": category_name,
                 "match_confidence": matched_category[1],
-                "canadian_alternatives": alternatives
+                "canadian_alternatives": alternative_images
             })
         else:
             print("\nNo categories matched with sufficient confidence")
-            # Return the detected elements even when no category is matched
             return jsonify({
                 "error": "No matching category found",
-                "detected_elements": detected_elements  # Add this to see what was detected
+                "detected_elements": detected_elements
             }), 404
 
     except Exception as e:
         print(f"Error processing request: {e}")  # Add server-side logging
         return jsonify({"error": str(e)}), 500
+
+@app.route('/product_images/<path:filename>')
+def serve_image(filename):
+    return send_from_directory('product_images', filename)
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)

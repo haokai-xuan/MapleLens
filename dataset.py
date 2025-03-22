@@ -3,7 +3,7 @@ PRODUCT_CATEGORIES = {
     # SNACKS
     "Chips": [
         # Major International Brands
-        "Lay's", "Ruffles", "Doritos", "Pringles", "Cheetos", "Tostitos", "Sun Chips", "Kettle Brand", 
+        "Lay's", "Ruffles", "Doritos", "Pringles", "PopCorners", "Cheetos", "Tostitos", "Sun Chips", "Kettle Brand", 
         "Cape Cod", "Utz", "Wise", "Popchips", "Terra Chips", "Miss Vickie's", "Takis", "Fritos", 
         "Bugles", "Stacy's Pita Chips", "Garden Fresh Gourmet", "Boulder Canyon", "Route 11", 
         "Deep River Snacks", "Late July", "Simply", "Snyder's of Hanover", "Quest Chips", "Rap Snacks",
@@ -242,7 +242,7 @@ PRODUCT_CATEGORIES = {
     
     "Candy": [
         # Major Brands
-        "Mars", "Hershey's", "Nestlé", "Cadbury", "Ferrero", "Mondelez",
+        "Mondelez", "Halls", "Trident", "Excel",
         "Skittles", "Starburst", "Twizzlers", "Jolly Rancher", "Life Savers",
         "Haribo", "Trolli", "Sour Patch Kids", "Swedish Fish", "Mike and Ike",
         # Specialty/Gourmet
@@ -250,11 +250,12 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365",
         # Tags
-        "Sweet", "Sour", "Chewy", "Hard", "Gummy", "Chocolate-covered"
+        "Sweet", "Sour", "Chewy", "Hard", "Gummy", "Chocolate-covered", "Gum"
     ],
 
     "Chocolate": [
         # Major International Brands
+        "Mars", "Hershey's", "Nestlé", "Cadbury", "Ferrero", "Chips Ahoy", "Oreo",
         "Hershey's", "Cadbury", "Lindt", "Ghirardelli", "Godiva", "Ferrero Rocher",
         "Mars", "Nestlé", "Toblerone", "Ritter Sport", "Milka", "Dove", "Russell Stover",
         # Premium/Artisanal
@@ -358,159 +359,131 @@ PRODUCT_CATEGORIES = {
 CATEGORY_ALTERNATIVES = {
     # Snacks
     "Chips": [
-        "Covered Bridge", "Hardbite", "Miss Vickie's Canada", "Humpty Dumpty",
-        "Yum Yum", "President's Choice", "Compliments", "Selection"
+        "Miss Vickie's Canada", "Humpty Dumpty", "President's Choice"
     ],
     
     "Crackers": [
-        "Dare", "Christie", "President's Choice", "Compliments", "Selection",
-        "Neal Brothers", "Mary Macleod's Shortbread"
+        "Christie", "President's Choice", "Neal Brothers"
     ],
 
     # Beverages
     "Soft Drinks": [
-        "Canada Dry", "Crush Canada", "President's Choice", "Compliments Cola",
-        "Selection Cola", "Big 8", "Cott Beverages"
+        "Canada Dry", "Crush Canada", "President's Choice"
     ],
 
     "Sports Drinks": [
-        "BioSteel", "Guru", "FLOW Hydration", "Sapsucker", "Hydrator", "Viveau",
-        "Canadian Mineral Water Co.", "Eska Sport"
+        "BioSteel", "Guru", "FLOW Hydration"
     ],
 
     "Energy Drinks": [
-        "Guru", "RISE Kombucha", "Flow Energy", "Beaver Buzz", "Rockstar Canada",
-        "Red Bull Canada"
+        "Guru", "Rockstar Canada", "Red Bull Canada"
     ],
 
     "Juices": [
-        "Sun-Rype", "Oasis", "Lassonde", "President's Choice", "Allen's",
-        "Graves", "McCain Fruit Juices"
+        "Sun-Rype", "Oasis", "President's Choice"
     ],
 
     # Breakfast & Cereal
     "Breakfast Cereal": [
-        "Nature's Path", "President's Choice", "Compliments", "Selection",
-        "Holy Crap Cereals", "One Degree Organic Foods"
+        "Nature's Path", "President's Choice", "Holy Crap Cereals"
     ],
 
     # Health & Beauty
     "Shampoo": [
-        "AG Hair", "Live Clean", "Attitude", "The Green Beaver Company",
-        "Cake Beauty", "Province Apothecary"
+        "Live Clean", "The Green Beaver Company", "Cake Beauty"
     ],
 
     "Toothpaste": [
-        "Green Beaver", "Nelson Naturals", "Attitude", "President's Choice",
-        "Life Brand", "Compliments"
+        "Green Beaver", "Nelson Naturals", "Attitude"
     ],
 
     # Cleaning Products
     "Laundry Detergent": [
-        "Nature Clean", "Bio-Vert", "Attitude", "The Soap Works",
-        "President's Choice", "Compliments"
+        "Nature Clean", "Bio-Vert", "Attitude"
     ],
 
     "All-Purpose Cleaners": [
-        "Nature Clean", "Bio-Vert", "Attitude", "Sapadilla",
-        "President's Choice", "Compliments"
+        "Nature Clean", "Bio-Vert", "Sapadilla"
     ],
 
     # Paper Products
     "Paper Towels": [
-        "Cascades", "Irving", "Kruger Products", "President's Choice",
-        "Selection", "Compliments"
+        "Cascades", "Irving", "Kruger Products"
     ],
 
     "Toilet Paper": [
-        "Cascades", "Irving", "Kruger Products", "President's Choice",
-        "Selection", "Compliments"
+        "Cascades", "Irving", "Kruger Products"
     ],
 
     # Pet Products
     "Dog Food": [
-        "Open Farm", "Canadian Naturals", "FirstMate", "Petcurean",
-        "President's Choice Nutrition First", "Orijen"
+        "Open Farm", "Canadian Naturals", "Orijen"
     ],
 
     "Cat Food": [
-        "Open Farm", "Canadian Naturals", "FirstMate", "Petcurean",
-        "President's Choice Nutrition First", "Orijen"
+        "Open Farm", "Canadian Naturals", "Orijen"
     ],
 
     # Frozen Food
     "Frozen Food": [
-        "President's Choice", "McCain Foods", "Arctic Gardens",
-        "Pinty's", "Yves Veggie Cuisine", "Cedar"
+        "President's Choice", "McCain Foods", "Arctic Gardens"
     ],
 
     # Canned Goods
     "Canned Vegetables": [
-        "President's Choice", "Compliments", "Selection",
-        "Arctic Gardens", "Green Giant Canada"
+        "President's Choice", "Green Giant Canada"
     ],
 
     "Canned Fruits": [
-        "President's Choice", "Compliments", "Selection",
         "Del Monte Canada"
     ],
 
     "Canned Soups": [
-        "Habitant", "President's Choice", "Compliments",
-        "Selection", "Campbell's Canada"
+        "Habitant", "Campbell's Canada"
     ],
 
     # Candy
     "Candy": [
-        "Dare", "Allan Candy Company", "Kerr's", "Ganong", "Laura Secord",
-        "Pot of Gold", "Coffee Crisp", "Caramilk", "Mr. Big", "Wunderbar"
+        "PUR Gum"
     ],
 
     # Chocolate
     "Chocolate": [
-        "Laura Secord", "Purdy's", "Rogers' Chocolates", "Ganong",
-        "Bernard Callebaut", "Chocolats Favoris", "Peace by Chocolate"
+        "Laura Secord", "Purdy's", "Rogers' Chocolates"
     ],
 
     # Popcorn
     "Popcorn": [
-        "President's Choice", "Kernels Popcorn", "Bad Monkey Popcorn",
-        "Canadian Popcorn Company", "Orville Redenbacher Canada"
+        "Kernels Popcorn", "Orville Redenbacher Canada"
     ],
 
     # Trail Mix
     "Trail Mix": [
-        "President's Choice", "Prana", "Canadian Pure", "Selection",
-        "Compliments", "Made Good"
+        "Prana", "Made Good"
     ],
 
     # Granola Bars
     "Granola Bars": [
-        "Made Good", "President's Choice", "Vector", "Canadian Pure",
-        "Nature Valley Canada", "Quaker Canada"
+        "Made Good", "Nature Valley Canada", "Quaker Canada"
     ],
 
     # Dried Fruits
     "Dried Fruits": [
-        "Patience Fruit & Co", "Fruit d'Or", "Canadian Berry Dryers",
-        "Forbes Wild Foods", "Organic Traditions"
+        "Patience Fruit & Co", "Fruit d'Or"
     ],
 
     # Cheese Snacks
     "Cheese Snacks": [
-        "Hawkins Cheezies", "President's Choice", "Compliments",
-        "Selection", "Great Value Canada"
+        "Hawkins Cheezies", "Great Value Canada"
     ],
 
     # Rice Snacks
     "Rice Snacks": [
-        "President's Choice", "Compliments", "Selection",
         "Made Good", "Nature's Path Canada"
     ],
 
     # Fruit Snacks
     "Fruit Snacks": [
-        "Made Good", "President's Choice", "Dare Real Fruit",
-        "Sun-Rype", "Bear Paws", "Selection"
+        "Made Good", "Bear Paws"
     ]
 }

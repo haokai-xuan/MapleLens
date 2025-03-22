@@ -5,3 +5,4 @@
 
 # Ignore environment config file
 config.env
+.vercel

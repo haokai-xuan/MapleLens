@@ -4,8 +4,9 @@ from pathlib import Path
 
 def test_image_analysis(image_path):
     """Test the image analysis endpoint with a local image"""
-    # API endpoint (local Flask server)
-    url = "http://127.0.0.1:5000/api/upload/"
+    # API endpoint (Vercel deployment)
+    base_url = "https://maple-lens-three.vercel.app"  # Update this to your final Vercel URL
+    url = f"{base_url}/api/upload/"
     
     # Ensure image exists
     if not os.path.exists(image_path):
@@ -14,45 +15,49 @@ def test_image_analysis(image_path):
     
     # Prepare the image file for upload
     with open(image_path, 'rb') as image_file:
-        files = {'image': ('image.jpg', image_file, 'image/jpeg')}  # Added content type
+        files = {'image': ('image.jpg', image_file, 'image/jpeg')}
         headers = {
             'Accept': 'application/json',
+            'Origin': 'https://maple-lens-three.vercel.app'
         }
         
         try:
-            # First, check if server is running
-            health_check = requests.get("http://127.0.0.1:5000/")
-            if health_check.status_code != 200:
-                print("Error: Server is not running!")
-                return
-
-            # Make the POST request
-            response = requests.post(url, files=files, headers=headers)
+            # Make the POST request directly without health check
+            print(f"Sending request to {url}...")
+            response = requests.post(
+                url, 
+                files=files, 
+                headers=headers,
+                timeout=30  # Add timeout
+            )
             
             # Print response for debugging
-            print(f"Response Status Code: {response.status_code}")
+            print(f"\nResponse Status Code: {response.status_code}")
             print(f"Response Headers: {response.headers}")
             
-            # Check if request was successful
-            response.raise_for_status()
-            
-            # Print results
-            result = response.json()
-            print("\nAnalysis Results:")
-            print("================")
-            print(f"Detected Elements: {result.get('detected_elements', [])}")
-            print(f"Matched Category: {result.get('matched_category', 'None')}")
-            print(f"Match Confidence: {result.get('match_confidence', 0)}")
-            print("\nCanadian Alternatives:")
-            print("=====================")
-            for alt in result.get('canadian_alternatives', []):
-                print(f"- {alt}")
+            if response.status_code == 200:
+                # Print results
+                result = response.json()
+                print("\nAnalysis Results:")
+                print("================")
+                print(f"Detected Elements: {result.get('detected_elements', [])}")
+                print(f"Matched Category: {result.get('matched_category', 'None')}")
+                print(f"Match Confidence: {result.get('match_confidence', 0)}")
+                print("\nCanadian Alternatives:")
+                print("=====================")
+                for alt in result.get('canadian_alternatives', []):
+                    print(f"Brand: {alt.get('brand')}")
+                    print(f"Image URL: {alt.get('image_url')}")
+                    print("---")
+            else:
+                print(f"\nError Response: {response.text}")
                 
         except requests.exceptions.ConnectionError:
-            print("Error: Could not connect to server. Make sure Flask is running!")
+            print(f"Error: Could not connect to {url}")
+            print("Please check if the URL is correct and the server is deployed properly.")
         except requests.exceptions.RequestException as e:
             print(f"Error making request: {e}")
-            if hasattr(e.response, 'text'):
+            if hasattr(e, 'response') and e.response is not None:
                 print(f"Response text: {e.response.text}")
         except Exception as e:
             print(f"Error: {e}")
@@ -62,9 +67,9 @@ def main():
     test_dir = Path("test_images")
     test_dir.mkdir(exist_ok=True)
     
-    print("Image Analysis Tester")
+    print("MapleLens API Tester")
     print("===================")
-    print("\nMake sure the Flask server is running before proceeding.")
+    print("\nThis tool will test the deployed Vercel API endpoint.")
     print("Place your test images in the 'test_images' directory.")
     
     # List available images
