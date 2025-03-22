@@ -1,0 +1,5 @@
+# Ignore virtual environment folder
+/env/
+
+# Ignore environment config file
+config.env
