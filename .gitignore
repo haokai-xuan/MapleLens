@@ -4,4 +4,4 @@
 /.DS_Store/
 
 # Ignore environment config file
-*.env
+config.env
