@@ -11,7 +11,8 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "Trader Joe's", "Whole Foods 365", "Simple Truth",
         # Tags
-        "Bag", "Crunchy", "Salty", "Snack", "Potato", "Tortilla", "Corn", "Ridged", "Flavored"
+        "Bag", "Crunchy", "Salty", "Snack", "Potato", "Tortilla", "Corn", "Ridged", "Flavored",
+        "junk food", "finger food", "family", "size"
     ],
 
     "Crackers": [
@@ -42,7 +43,7 @@ PRODUCT_CATEGORIES = {
         # Other Flavors
         "Dr Pepper", "Big Red", "Squirt", "Fresca", "Tab", "Surge", "Mello Yello", "Sun Drop",
         # Tags
-        "Bottle", "Can", "Carbonated", "Sweet", "Diet", "Zero Sugar", "Caffeine Free"
+        "Bottle", "Can", "Carbonated", "Sweet", "Diet", "Zero Sugar", "Caffeine Free", "liquid"
     ],
 
     "Sports Drinks": [
@@ -54,20 +55,21 @@ PRODUCT_CATEGORIES = {
         # Recovery Drinks
         "Pedialyte Sport", "O.R.S.", "Normalyte", "Hydralyte",
         # Tags
-        "Bottle", "Powder", "Tablets", "Electrolytes", "Zero Sugar", "Recovery", "Hydration"
+        "Bottle", "Powder", "Tablets", "Electrolytes", "Zero Sugar", "Recovery", "Hydration", "Sports drink",
+        "Scientifically", "Sports", "Formulated", "Electrolytes"
     ],
 
     "Energy Drinks": [
         # Major Brands
         "Red Bull", "Monster", "Rockstar", "NOS", "Full Throttle", "Bang", "Reign",
         "5-Hour Energy", "Amp", "Xyience", "Celsius", "GURU", "Uptime", "Venom",
-        "Redline", "G Fuel", "SPIKE", "Rip It", "Rowdy Energy", "Adrenaline Shoc",
+        "Redline", "G Fuel", "SPIKE", "Rip It", "Rowdy Energy", "Adrenaline Shoc", "Prime",
         # Natural/Organic
         "Hiball", "Zevia Energy", "Runa", "Sambazon", "Clean Energy",
         # Store Brands
         "Kirkland Signature", "Great Value",
         # Tags
-        "Can", "Bottle", "Shot", "Carbonated", "Sugar-Free", "Caffeine", "Taurine"
+        "Can", "Bottle", "Shot", "Carbonated", "Sugar-Free", "Caffeine", "Taurine", "Energy drink", "Energy"
     ],
 
     "Juices": [
@@ -80,7 +82,8 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland", "Simple Truth", "365",
         # Tags
-        "Bottle", "Carton", "Box", "Concentrate", "Not From Concentrate", "Cold Pressed"
+        "Bottle", "Carton", "Box", "Concentrate", "Not From Concentrate", "Cold Pressed",
+        "Vitamin", "Fruit", "100%", "Natrual", "Produce", "Citrus", "Orange", "Apple", "Pulp", "Purse"
     ],
 
     # BREAKFAST & CEREAL
@@ -250,7 +253,8 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365",
         # Tags
-        "Sweet", "Sour", "Chewy", "Hard", "Gummy", "Chocolate-covered", "Gum"
+        "Sweet", "Sour", "Chewy", "Hard", "Gummy", "Chocolate-covered", "Gum",
+        "Food", "Candy", "Mixed", "Junk food", "Food additive", "Artificial", "Natural", "Flavours", "Candies"
     ],
 
     "Chocolate": [
@@ -264,7 +268,8 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Trader Joe's", "Kirkland Signature", "365",
         # Tags
-        "Dark", "Milk", "White", "Premium", "Fair Trade", "Organic", "Bean-to-Bar"
+        "Dark", "Milk", "White", "Premium", "Fair Trade", "Organic", "Bean-to-Bar", "Chocolate",
+        "Chocolate bar", "Dessert"
     ],
 
     "Popcorn": [
