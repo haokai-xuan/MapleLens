@@ -155,17 +155,31 @@ class _ImageCaptureState extends State<ImageCapture> {
   Widget build(BuildContext context) {
     return Scaffold(
     appBar: AppBar(
-      title: const Text(
-        'MapleLens',
-        style: TextStyle(
-          fontFamily: 'Domine',
-          fontSize: 24,  // You can adjust this size
-          fontWeight: FontWeight.bold,
+        title: Row(
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8), // Adjust the radius as needed
+              child: Image.asset(
+                'assets/MapleLensLogo.png',  // Path to your MapleLens logo
+                height: 40, // Adjust the height of the logo
+                width: 40,  // Adjust the width of the logo
+                fit: BoxFit.cover, // Ensures the logo is cropped correctly
+              ),
+            ),
+            const SizedBox(width: 10), // Space between the logo and the text
+            const Text(
+              'MapleLens',
+              style: TextStyle(
+                fontFamily: 'Domine',
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
         ),
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        foregroundColor: Colors.white,
       ),
-      backgroundColor: Theme.of(context).colorScheme.primary,
-      foregroundColor: Colors.white,
-    ),
       body: Column(
         children: <Widget>[
           if (_imageFile == null)
