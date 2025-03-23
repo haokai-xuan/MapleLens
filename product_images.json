@@ -6,13 +6,58 @@
       "category": "Chips"
     },
     {
-      "brand": "Humpty Dumpty",
-      "image_path": "chips/Humpty_Dumpty.jpg",
+      "brand": "Covered Bridge",
+      "image_path": "chips/Covered_Bridge.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Que Pasa",
+      "image_path": "chips/Que_Pasa.jpg",
       "category": "Chips"
     },
     {
       "brand": "President's Choice",
       "image_path": "chips/President's_Choice.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Hardbite",
+      "image_path": "chips/Hardbite.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Fresh is Best",
+      "image_path": "chips/Fresh_is_Best.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "La Concina",
+      "image_path": "chips/La_Concina.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Tomahawk Chips",
+      "image_path": "chips/Tomahawk_Chips.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Neal Brothers",
+      "image_path": "chips/Neal_Brothers.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Hawkins Cheezies",
+      "image_path": "chips/Hawkins_Cheezies.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Los Cantores",
+      "image_path": "chips/Los_Cantores.jpg",
+      "category": "Chips"
+    },
+    {
+      "brand": "Yum Yum Chips",
+      "image_path": "chips/Yum_Yum_Chips.jpg",
       "category": "Chips"
     }
   ],
@@ -40,13 +85,23 @@
       "category": "Soft Drinks"
     },
     {
-      "brand": "Crush Canada",
-      "image_path": "soft_drinks/Crush_Canada.jpg",
+      "brand": "Big 8",
+      "image_path": "soft_drinks/Big_8.jpg",
       "category": "Soft Drinks"
     },
     {
       "brand": "President's Choice",
       "image_path": "soft_drinks/President's_Choice.jpg",
+      "category": "Soft Drinks"
+    },
+    {
+      "brand": "Brio Chinotto",
+      "image_path": "soft_drinks/Brio_Chinotto.jpg",
+      "category": "Soft Drinks"
+    },
+    {
+      "brand": "Clearly Canadian",
+      "image_path": "soft_drinks/Clearly_Canadian.jpg",
       "category": "Soft Drinks"
     }
   ],
@@ -54,6 +109,11 @@
     {
       "brand": "BioSteel",
       "image_path": "sports_drinks/BioSteel.jpg",
+      "category": "Sports Drinks"
+    },
+    {
+      "brand": "Cwench",
+      "image_path": "sports_drinks/Cwench.jpg",
       "category": "Sports Drinks"
     },
     {
@@ -69,18 +129,13 @@
   ],
   "Energy Drinks": [
     {
-      "brand": "Guru",
-      "image_path": "energy_drinks/Guru.jpg",
+      "brand": "WakeUp",
+      "image_path": "energy_drinks/WakeUp.jpg",
       "category": "Energy Drinks"
     },
     {
-      "brand": "Rockstar Canada",
-      "image_path": "energy_drinks/Rockstar_Canada.jpg",
-      "category": "Energy Drinks"
-    },
-    {
-      "brand": "Red Bull Canada",
-      "image_path": "energy_drinks/Red_Bull_Canada.jpg",
+      "brand": "Beaver Buzz",
+      "image_path": "energy_drinks/Beaver_Buzz.jpg",
       "category": "Energy Drinks"
     }
   ],
@@ -99,6 +154,16 @@
       "brand": "President's Choice",
       "image_path": "juices/President's_Choice.jpg",
       "category": "Juices"
+    },
+    {
+      "brand": "Black River",
+      "image_path": "juices/Black_River.jpg",
+      "category": "Juices"
+    },
+    {
+      "brand": "Allen's",
+      "image_path": "juices/Allen's.jpg",
+      "category": "Juices"
     }
   ],
   "Breakfast Cereal": [
@@ -116,12 +181,47 @@
       "brand": "Holy Crap Cereals",
       "image_path": "breakfast_cereal/Holy_Crap_Cereals.jpg",
       "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "President's Choice",
+      "image_path": "breakfast_cereal/President's_Choice.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "Yupik Granola",
+      "image_path": "breakfast_cereal/Yupik_Granola.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "Holy Crap",
+      "image_path": "breakfast_cereal/Holy_Crap.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "Rogers Granola",
+      "image_path": "breakfast_cereal/Rogers_Granola.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "New World Organics",
+      "image_path": "breakfast_cereal/New_World_Organics.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "One Degree Organic Foods",
+      "image_path": "breakfast_cereal/One_Degree_Organic_Foods.jpg",
+      "category": "Breakfast Cereal"
+    },
+    {
+      "brand": "Red River cereal",
+      "image_path": "breakfast_cereal/Red_River_cereal.jpg",
+      "category": "Breakfast Cereal"
     }
   ],
   "Shampoo": [
     {
-      "brand": "Live Clean",
-      "image_path": "shampoo/Live_Clean.jpg",
+      "brand": "The Unscented Company",
+      "image_path": "shampoo/The_Unscented_Company.jpg",
       "category": "Shampoo"
     },
     {
@@ -130,8 +230,23 @@
       "category": "Shampoo"
     },
     {
-      "brand": "Cake Beauty",
-      "image_path": "shampoo/Cake_Beauty.jpg",
+      "brand": "Oneka",
+      "image_path": "shampoo/Oneka.jpg",
+      "category": "Shampoo"
+    },
+    {
+      "brand": "AG Care",
+      "image_path": "shampoo/AG_Care.jpg",
+      "category": "Shampoo"
+    },
+    {
+      "brand": "Attitude",
+      "image_path": "shampoo/Attitude.jpg",
+      "category": "Shampoo"
+    },
+    {
+      "brand": "Rocky Mountain Soap Company",
+      "image_path": "shampoo/Rocky_Mountain_Soap_Company.jpg",
       "category": "Shampoo"
     }
   ],
@@ -307,6 +422,26 @@
       "brand": "PUR Gum",
       "image_path": "candy/PUR_Gum.jpg",
       "category": "Candy"
+    },
+    {
+      "brand": "Big Sky",
+      "image_path": "candy/Big_Sky.jpg",
+      "category": "Candy"
+    },
+    {
+      "brand": "CandyLabs",
+      "image_path": "candy/CandyLabs.jpg",
+      "category": "Candy"
+    },
+    {
+      "brand": "Ganong",
+      "image_path": "candy/Ganong.jpg",
+      "category": "Candy"
+    },
+    {
+      "brand": "Squish",
+      "image_path": "candy/Squish.jpg",
+      "category": "Candy"
     }
   ],
   "Chocolate": [
@@ -323,6 +458,16 @@
     {
       "brand": "Rogers' Chocolates",
       "image_path": "chocolate/Rogers'_Chocolates.jpg",
+      "category": "Chocolate"
+    },
+    {
+      "brand": "Peace by Chocolate",
+      "image_path": "chocolate/Peace_by_Chocolate.jpg",
+      "category": "Chocolate"
+    },
+    {
+      "brand": "Theobroma",
+      "image_path": "chocolate/Theobroma.jpg",
       "category": "Chocolate"
     }
   ],
@@ -357,13 +502,8 @@
       "category": "Granola Bars"
     },
     {
-      "brand": "Nature Valley Canada",
-      "image_path": "granola_bars/Nature_Valley_Canada.jpg",
-      "category": "Granola Bars"
-    },
-    {
-      "brand": "Quaker Canada",
-      "image_path": "granola_bars/Quaker_Canada.jpg",
+      "brand": "Stephano Group",
+      "image_path": "granola_bars/Stephano_Group.jpg",
       "category": "Granola Bars"
     }
   ],

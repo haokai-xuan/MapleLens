@@ -26,7 +26,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland", "365", "Simple Truth", "Good & Gather",
         # Tags
-        "Box", "Package", "Salty", "Crispy", "Whole Grain", "Gluten-Free", "Organic"
+        "Box", "Package", "Salty", "Crispy", "Whole Grain", "Gluten-Free", "Organic", "Crackers"
     ],
 
     # BEVERAGES
@@ -99,7 +99,7 @@ PRODUCT_CATEGORIES = {
         # Health Focused
         "Barbara's", "Bob's Red Mill", "Cascadian Farm", "Kashi", "Annie's",
         # Tags
-        "Box", "Bag", "Breakfast", "Grain", "Ready-to-eat", "Whole Grain", "Organic"
+        "Box", "Bag", "Breakfast", "Grain", "Ready-to-eat", "Whole Grain", "Organic", "Cereal"
     ],
 
     # HEALTH & BEAUTY
@@ -113,7 +113,7 @@ PRODUCT_CATEGORIES = {
         # Natural/Organic
         "Love Beauty & Planet", "Shea Moisture", "Burt's Bees", "Alba Botanica",
         # Tags
-        "Bottle", "Hair Care", "Liquid", "Sulfate-Free", "Color-Safe", "Natural"
+        "Bottle", "Hair Care", "Liquid", "Sulfate-Free", "Color-Safe", "Natural", "Shampoo"
     ],
 
     "Toothpaste": [
@@ -125,7 +125,7 @@ PRODUCT_CATEGORIES = {
         # Professional
         "Prevident", "Clinpro", "Enamelon", "MI Paste",
         # Tags
-        "Tube", "Oral Care", "Fluoride", "Whitening", "Sensitive", "Natural"
+        "Tube", "Oral Care", "Fluoride", "Whitening", "Sensitive", "Natural", "Toothpaste", "Teeth"
     ],
 
     # CLEANING PRODUCTS
@@ -138,7 +138,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "Up&Up", "365",
         # Tags
-        "Liquid", "Pods", "Powder", "HE", "Natural", "Free & Clear"
+        "Liquid", "Pods", "Powder", "HE", "Natural", "Free & Clear", "Detergent", "Laundry"
     ],
 
     "All-Purpose Cleaners": [
@@ -150,7 +150,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Up&Up", "365", "Simple Truth",
         # Tags
-        "Spray", "Liquid", "Wipes", "Disinfectant", "Natural", "Multi-Surface"
+        "Spray", "Liquid", "Wipes", "Disinfectant", "Natural", "Multi-Surface", "All-purpose", "Cleaner"
     ],
 
     "Paper Towels": [
@@ -161,7 +161,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "Up&Up", "Member's Mark",
         # Tags
-        "Roll", "Sheet", "Select-A-Size", "Recycled", "Multi-Purpose", "Kitchen"
+        "Roll", "Sheet", "Select-A-Size", "Recycled", "Multi-Purpose", "Kitchen", "Paper towels", "Paper", "Towels"
     ],
 
     "Toilet Paper": [
@@ -172,7 +172,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "Up&Up", "Member's Mark",
         # Tags
-        "Roll", "2-Ply", "3-Ply", "Soft", "Strong", "Recycled", "Bathroom"
+        "Roll", "2-Ply", "3-Ply", "Soft", "Strong", "Recycled", "Bathroom", "Toilet paper", "Paper"
     ],
 
     "Dog Food": [
@@ -184,7 +184,7 @@ PRODUCT_CATEGORIES = {
         # Natural/Organic
         "Natural Balance", "Nature's Variety", "Castor & Pollux", "Organix",
         # Tags
-        "Dry", "Wet", "Puppy", "Adult", "Senior", "Grain-Free", "Natural"
+        "Dry", "Wet", "Puppy", "Adult", "Senior", "Grain-Free", "Natural", "Dog", "Food"
     ],
 
     "Cat Food": [
@@ -196,7 +196,7 @@ PRODUCT_CATEGORIES = {
         # Natural/Organic
         "Natural Balance", "Nature's Variety", "Castor & Pollux", "Organix",
         # Tags
-        "Dry", "Wet", "Kitten", "Adult", "Senior", "Indoor", "Grain-Free"
+        "Dry", "Wet", "Kitten", "Adult", "Senior", "Indoor", "Grain-Free", "Cat", "Food"
     ],
 
     "Frozen Food": [
@@ -210,7 +210,7 @@ PRODUCT_CATEGORIES = {
         # Ice Cream
         "Ben & Jerry's", "Häagen-Dazs", "Breyers", "Blue Bell", "Turkey Hill",
         # Tags
-        "Frozen", "Ready-to-Heat", "Meal", "Convenience", "Single Serve"
+        "Frozen", "Ready-to-Heat", "Meal", "Convenience", "Single Serve", "Ice cream"
     ],
 
     "Canned Vegetables": [
@@ -221,7 +221,7 @@ PRODUCT_CATEGORIES = {
         # Organic
         "Muir Glen", "Field Day", "Eden Organic",
         # Tags
-        "Can", "Preserved", "Ready-to-Eat", "Vegetables", "Shelf-Stable"
+        "Can", "Preserved", "Ready-to-Eat", "Vegetables", "Shelf-Stable", "Canned"
     ],
 
     "Canned Fruits": [
@@ -230,7 +230,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland", "365", "Simple Truth",
         # Tags
-        "Can", "Preserved", "In Syrup", "In Juice", "Fruit", "Shelf-Stable"
+        "Can", "Preserved", "In Syrup", "In Juice", "Fruit", "Shelf-Stable", "Canned"
     ],
 
     "Canned Soups": [
@@ -240,7 +240,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland", "365", "Simple Truth",
         # Tags
-        "Can", "Ready-to-Eat", "Condensed", "Organic", "Low-Sodium"
+        "Can", "Ready-to-Eat", "Condensed", "Organic", "Low-Sodium", "Canned", "Soup"
     ],
     
     "Candy": [
@@ -283,7 +283,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365", "Simple Truth",
         # Tags
-        "Ready-to-Eat", "Microwave", "Kettle Corn", "Caramel", "Cheese", "Natural"
+        "Ready-to-Eat", "Microwave", "Kettle Corn", "Caramel", "Cheese", "Natural", "Popcorn", "Kernal"
     ],
 
     "Trail Mix": [
@@ -295,7 +295,7 @@ PRODUCT_CATEGORIES = {
         # Types
         "Traditional", "Tropical", "Energy", "Omega", "Student", "Mountain",
         # Tags
-        "Mixed", "Raw", "Roasted", "Sweet & Salty", "Organic", "Natural"
+        "Mixed", "Raw", "Roasted", "Sweet & Salty", "Organic", "Natural", "Nuts", "Trail mix"
     ],
 
     "Granola Bars": [
@@ -307,7 +307,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365", "Simple Truth",
         # Tags
-        "Protein", "Granola", "Nut", "Fruit", "Energy", "Organic", "Gluten-Free"
+        "Protein", "Granola", "Nut", "Fruit", "Energy", "Organic", "Gluten-Free", "Granola bars"
     ],
 
     "Dried Fruits": [
@@ -319,7 +319,7 @@ PRODUCT_CATEGORIES = {
         # Types
         "Raisins", "Cranberries", "Apricots", "Dates", "Figs", "Mango", "Pineapple",
         # Tags
-        "No Added Sugar", "Organic", "Sulfite-Free", "Natural", "Unsweetened"
+        "No Added Sugar", "Organic", "Sulfite-Free", "Natural", "Unsweetened", "Fruits", "Dried"
     ],
 
     "Cheese Snacks": [
@@ -331,7 +331,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365", "Simple Truth",
         # Tags
-        "Crunchy", "Puffed", "Baked", "Keto", "Gluten-Free", "Natural"
+        "Crunchy", "Puffed", "Baked", "Keto", "Gluten-Free", "Natural", "Cheese"
     ],
 
     "Rice Snacks": [
@@ -344,7 +344,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365", "Simple Truth",
         # Tags
-        "Gluten-Free", "Low-Calorie", "Whole Grain", "Organic", "Asian-Style"
+        "Gluten-Free", "Low-Calorie", "Whole Grain", "Organic", "Asian-Style", "Rice"
     ],
 
     "Fruit Snacks": [
@@ -356,7 +356,7 @@ PRODUCT_CATEGORIES = {
         # Store Brands
         "Great Value", "Kirkland Signature", "365", "Simple Truth",
         # Tags
-        "Natural", "Organic", "No Added Sugar", "Real Fruit", "Kids", "School Safe"
+        "Natural", "Organic", "No Added Sugar", "Real Fruit", "Kids"
     ]
 }
 
@@ -364,7 +364,9 @@ PRODUCT_CATEGORIES = {
 CATEGORY_ALTERNATIVES = {
     # Snacks
     "Chips": [
-        "Miss Vickie's Canada", "Humpty Dumpty", "President's Choice"
+        "Miss Vickie's Canada", "Covered Bridge", "Que Pasa", "President's Choice",
+        "Hardbite", "Fresh is Best", "La Concina", "Tomahawk Chips", "Neal Brothers", "Hawkins Cheezies",
+        "Los Cantores", "Yum Yum Chips"
     ],
     
     "Crackers": [
@@ -373,29 +375,32 @@ CATEGORY_ALTERNATIVES = {
 
     # Beverages
     "Soft Drinks": [
-        "Canada Dry", "Crush Canada", "President's Choice"
+        "Canada Dry", "Big 8", "President's Choice", "Brio Chinotto", "Clearly Canadian"
     ],
 
     "Sports Drinks": [
-        "BioSteel", "Guru", "FLOW Hydration"
+        "BioSteel", "Cwench", "Guru", "FLOW Hydration"
     ],
 
     "Energy Drinks": [
-        "Guru", "Rockstar Canada", "Red Bull Canada"
+        "WakeUp", "Beaver Buzz"
     ],
 
     "Juices": [
-        "Sun-Rype", "Oasis", "President's Choice"
+        "Sun-Rype", "Oasis", "President's Choice", "Black River", "Allen's"
     ],
 
     # Breakfast & Cereal
     "Breakfast Cereal": [
-        "Nature's Path", "President's Choice", "Holy Crap Cereals"
+        "Nature's Path", "President's Choice", "Yupik Granola", "Holy Crap", 
+        "Rogers Granola", "New World Organics", "One Degree Organic Foods", 
+        "Red River cereal"
     ],
 
     # Health & Beauty
     "Shampoo": [
-        "Live Clean", "The Green Beaver Company", "Cake Beauty"
+        "The Unscented Company", "The Green Beaver Company", "Oneka", "AG Care", "Attitude",
+        "Rocky Mountain Soap Company"
     ],
 
     "Toothpaste": [
@@ -449,12 +454,12 @@ CATEGORY_ALTERNATIVES = {
 
     # Candy
     "Candy": [
-        "PUR Gum"
+        "PUR Gum", "Big Sky", "CandyLabs", "Ganong", "Squish"
     ],
 
     # Chocolate
     "Chocolate": [
-        "Laura Secord", "Purdy's", "Rogers' Chocolates"
+        "Laura Secord", "Purdy's", "Rogers' Chocolates", "Peace by Chocolate", "Theobroma"
     ],
 
     # Popcorn
@@ -469,7 +474,7 @@ CATEGORY_ALTERNATIVES = {
 
     # Granola Bars
     "Granola Bars": [
-        "Made Good", "Nature Valley Canada", "Quaker Canada"
+        "Made Good", "Stephano Group"
     ],
 
     # Dried Fruits
